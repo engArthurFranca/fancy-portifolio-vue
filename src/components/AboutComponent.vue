@@ -8,6 +8,17 @@
             <p class="text-2xl">Hi, I'm</p>
             <p class="text-4xl text-red-500 font-extrabold mt-2">ARTHUR FRANÇA</p>
             <p class="text-2xl mt-2">FrontEnd Developer</p>
+            <div class="flex flex-row mt-2 mb-2">
+                <img src="../assets/skills/python.svg" class="w-6 ml-2"/>
+
+                <img src="../assets/skills/html.svg" class="w-6 ml-1"/>
+                <img src="../assets/skills/css.svg" class="w-6 ml-1"/>
+                <img src="../assets/skills/javascript.svg" class="w-6 ml-1"/>
+
+                <img src="../assets/skills/vue.svg" class="w-6 ml-1"/>
+                <img src="../assets/skills/tailwind.svg" class="w-6 ml-1"/>
+                <img src="../assets/skills/bootstrap.svg" class="w-6 ml-1"/>
+            </div>
             <p class="text-base mt-4">
                 Currently pursuing a degree in Software Engineering at Uninter, I have a strong foundation in Python, Vue3, JavaScript, HTML, and CSS. Although I'm an early-career professional, I'm eager to learn new skills and have already begun to explore Django and AI.
             </p>
