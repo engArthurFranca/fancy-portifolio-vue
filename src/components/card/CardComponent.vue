@@ -37,7 +37,7 @@
         <a :href="props.link" target="_blank">
             <h5 class="mb-2 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">{{ props.title }}</h5>
         </a>
-        <p class="mb-3 font-normal text-gray-500 dark:text-gray-400">{{ props.desc }}</p>
+        <p class="mb-5 mt-3 font-normal text-gray-500 dark:text-gray-400">{{ props.desc }}</p>
         <a :href="props.link" class="text-white bg-red-500 hover:bg-red-800 focus:outline-none focus:ring-4 focus:ring-red-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900 cursor-pointer" target="_blank">Access</a>
         <a v-if="props.gitLink" :href="props.gitLink" target="_blank" class="inline-flex font-medium items-center text-blue-600 hover:underline">
             GitHub Link

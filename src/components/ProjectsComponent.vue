@@ -15,11 +15,11 @@
 <template>
     <div class="max-w-screen-xl flex flex-col text-center items-center justify-between mx-auto p-10 bg-inherit  dark:text-white">
         <div class="w-full">
-            <p class="text-xl text-red-500 font-bold mt-2">My Projects</p>
-            <p class="text-3xl mt-2 font-bold" >WHAT I DID</p>
+            <p class="text-3xl text-red-500 font-bold mt-2">My Projects</p>
+            <p class="text-4xl mt-2 font-bold" >WHAT I DID</p>
         </div>
-        <p class="text-lg text-red-500 font-semibold mt-8">Big Projects</p>
-        <div class="flex flex-wrap mt-4">
+        <p class="text-xl text-red-500 font-semibold mt-8">Big Projects</p>
+        <div class="flex mt-4 text-center items-center justify-center">
             <CardComponent v-for="card in cards.big" :key="card.title"
                 :title="card.title"
                 :desc="card.desc"
@@ -28,8 +28,8 @@
                 :svgIcon="card.svgIcon"
             ></CardComponent>
         </div>
-        <p v-if="cards.small.length" class="text-lg text-red-500 font-semibold mt-8">Small Projects</p>
-        <div  class="flex flex-wrap mt-4">
+        <p v-if="cards.small.length" class="text-xl text-red-500 font-semibold mt-8">Small Projects</p>
+        <div  class="flex flex-wrap mt-4 text-center items-center justify-center">
             <CardComponent v-for="card in cards.small" :key="card.title"
                 :title="card.title"
                 :desc="card.desc"
