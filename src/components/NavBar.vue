@@ -17,7 +17,7 @@ import { computed } from 'vue';
 <template>
     <nav class="bg-inherit border-gray-200 ">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-            <a href="https://arthurfranca.com/" class="logo-container flex items-center space-x-3 rtl:space-x-reverse">
+            <a href="https://arthurfranca.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="../assets/logo.svg" class="w-14 " alt="AF Logo" />
                 <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white" style="font-family: 'Abhaya Libre', serif;">Arthur&lt;<span class="text-red-600">/</span>&gt;França</span>
             </a>
