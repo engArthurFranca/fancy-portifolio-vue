@@ -13,8 +13,8 @@
 </script>
 
 <template>
-    <div class="max-w-screen-xl flex flex-col text-left mx-auto p-10 bg-inherit  dark:text-white">
-        <div class="text-left w-full">
+    <div class="max-w-screen-xl flex flex-col text-center items-center justify-between mx-auto p-10 bg-inherit  dark:text-white">
+        <div class="w-full">
             <p class="text-xl text-red-500 font-bold mt-2">My Projects</p>
             <p class="text-3xl mt-2 font-bold" >WHAT I DID</p>
         </div>
