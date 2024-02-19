@@ -17,7 +17,7 @@
 </script>
 
 <template>
-  <div :class="{'dark': isDark}" >
+  <div :class="{'dark': isDark}">
     <div class="dark:bg-gray-700">
       <NavBar />
       <AboutComponent id="about" />
@@ -35,5 +35,13 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+
+.scroll-snap-start {
+  scroll-snap-align: start;
+}
+
+.scroll-behavior-smooth {
+  scroll-behavior: smooth;
 }
 </style>
