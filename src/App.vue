@@ -37,11 +37,9 @@
   color: #2c3e50;
 }
 
-.scroll-snap-start {
+* {
   scroll-snap-align: start;
-}
-
-.scroll-behavior-smooth {
   scroll-behavior: smooth;
 }
+
 </style>
