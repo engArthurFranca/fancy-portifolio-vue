@@ -15,7 +15,7 @@
 </script>
 
 <template>
-  <nav class="bg-inherit border-gray-200 fixed top-0 w-full">
+  <nav class="bg-white border-gray-200 fixed top-0 w-full dark:bg-gray-700">
       <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="https://arthurfranca.com/" class="flex items-center space-x-3 rtl:space-x-reverse">
             <svg viewBox="0 0 230 230" xmlns="http://www.w3.org/2000/svg" class="w-14">
