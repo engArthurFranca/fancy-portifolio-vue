@@ -18,6 +18,7 @@
                 <img src="../assets/skills/vue.svg" class="w-6 ml-1"/>
                 <img src="../assets/skills/tailwind.svg" class="w-6 ml-1"/>
                 <img src="../assets/skills/bootstrap.svg" class="w-6 ml-1"/>
+                <img src="../assets/skills/svg.svg" class="w-6 ml-1"/>
             </div>
             <p class="text-base mt-4">
                 Currently pursuing a degree in Software Engineering at Uninter, I have a strong foundation in Python, Vue3, JavaScript, HTML, and CSS. Although I'm an early-career professional, I'm eager to learn new skills and have already begun to explore Django and AI.
