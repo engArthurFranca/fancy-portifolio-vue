@@ -10,7 +10,7 @@
 </script>
 
 <template>
-    <div class="max-w-screen-xl flex flex-col text-left mx-auto p-10 bg-inherit my-8 dark:text-white">
+    <div class="max-w-screen-xl flex flex-col text-left mx-auto px-10 pt-[88px] pb-0 bg-inherit my-8 dark:text-white">
         <p class="mb-8 text-2xl font-semibold text-center">Education Background</p>
         <ol class="items-center sm:flex justify-center">
             <FormationCard v-for="formation in formations" :key="formation.title"

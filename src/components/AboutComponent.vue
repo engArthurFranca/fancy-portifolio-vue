@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-10 md:justify-center md:text-center bg-inherit  dark:text-white">
+    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto px-10 pt-[88px] pb-0 md:justify-center md:text-center bg-inherit  dark:text-white">
         <div class="text-left w-full md:w-1/2">
             <p class="text-2xl">Hi, I'm</p>
             <p class="text-4xl text-red-500 font-extrabold mt-2">ARTHUR FRANÇA</p>
