@@ -19,7 +19,7 @@
             <p class="text-4xl mt-2 font-bold" >WHAT I DID</p>
         </div>
         <p class="text-xl text-red-500 font-semibold mt-8">Big Projects</p>
-        <div class="flex mt-4 text-center items-center justify-center">
+        <div class="flex mt-4 text-center h-60   items-center justify-center">
             <CardComponent v-for="card in cards.big" :key="card.title"
                 :title="card.title"
                 :desc="card.desc"
@@ -29,7 +29,7 @@
             ></CardComponent>
         </div>
         <p v-if="cards.small.length" class="text-xl text-red-500 font-semibold mt-8">Small Projects</p>
-        <div  class="flex flex-wrap mt-4 text-center items-center justify-center">
+        <div  class="flex flex-wrap mt-4 h-44 text-center items-center justify-center">
             <CardComponent v-for="card in cards.small" :key="card.title"
                 :title="card.title"
                 :desc="card.desc"

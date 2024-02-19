@@ -31,7 +31,7 @@
 </script>
 
 <template>
-    <div class="max-w-sm ml-2 mt-2 text-center p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+    <div class="max-w-sm ml-2 mt-2 h-full  text-center p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
         <img v-if="svgIcon"  :src="svgPath" class="mx-auto"/>
         
         <a :href="props.link" target="_blank">
